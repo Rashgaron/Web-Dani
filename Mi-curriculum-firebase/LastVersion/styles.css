@@ -1,0 +1,322 @@
+@media (max-width: 1900px) {
+  #section #imgContainer {
+    width: 15%;
+  }
+
+  #section #sectionText {
+    width: 75%;
+  }
+
+  #section {
+    height: 380px;
+  }
+}
+@media (max-width: 1700px) {
+  #section #imgContainer {
+    width: 18%;
+  }
+
+  #section {
+    height: 410px;
+  }
+}
+@media (max-width: 1500px) {
+  #section {
+    height: 365px;
+  }
+}
+@media (max-width: 1250px) {
+  #section {
+    height: 320px;
+  }
+
+  #section #imgContainer {
+    width: 19% !important;
+    margin-left: 2% !important;
+  }
+
+  #section #sectionText {
+    width: 70% !important;
+  }
+}
+@media (max-width: 1150px) {
+  #section {
+    height: 325px;
+  }
+
+  #section #imgContainer {
+    width: 20%;
+    margin-left: 4%;
+  }
+}
+@media (max-width: 955px) {
+  #section #imgContainer {
+    width: 25%;
+    margin-left: 1%;
+  }
+
+  #section #sectionText {
+    width: 65%;
+  }
+}
+@media (max-width: 921px) {
+  #section #sectionText {
+    width: 59%;
+  }
+
+  #section #imgContainer {
+    width: 26%;
+  }
+
+  #section {
+    height: 325px !important;
+  }
+}
+@media (max-width: 860px) {
+  #datos #nombre {
+    font-size: 40px;
+  }
+
+  #datos #profesion {
+    font-size: 25px;
+  }
+
+  #header ul li a {
+    font-size: 20px;
+  }
+
+  #nav ul {
+    height: 4px;
+  }
+
+  #section {
+    width: 95%;
+  }
+
+  .sectionTextAptitudes {
+    height: 310px !important;
+  }
+
+  #section #sectionText {
+    width: 65% !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 255px;
+    margin: 0px auto !important;
+    float: none !important;
+  }
+
+  #section #imgContainer {
+    display: block;
+    width: 24% !important;
+  }
+}
+@media (max-width: 640px) {
+  #section #sectionText {
+    height: auto !important;
+    max-height: 300px;
+  }
+}
+@media (max-width: 526px) {
+  #section #sectionText {
+    height: 295px;
+    width: 90% !important;
+    max-height: none;
+    height: auto !important;
+  }
+
+  #section #imgContainer {
+    display: none;
+  }
+
+  #section {
+    height: auto !important;
+  }
+}
+@media (max-width: 460px) {
+  #section #sectionText #listaContacto li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 394px) {
+  #header ul li a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 318px) {
+  #header ul li a {
+    font-size: 11px;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px;
+  background-color: black;
+}
+
+#datos a {
+  width: 30%;
+  border: 1px solid black;
+  color: #72ab00;
+}
+
+#datos #nombre {
+  font-size: 290%;
+  font-weight: bold;
+}
+
+#datos #nombre:hover {
+  text-shadow: 1px 0px 3px gray;
+}
+
+#datos #nombre span {
+  color: #9a9a9a;
+}
+
+#datos #profesion {
+  font-weight: lighter;
+  font-size: 120%;
+}
+
+#datos #profesion:hover {
+  text-shadow: 1px 0px 3px gray;
+}
+
+#header ul {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+#header ul li {
+  display: block;
+  float: right;
+  margin-right: 15px;
+}
+
+#header ul li a {
+  text-transform: uppercase;
+  color: #9a9a9a;
+  border-top: 1px solid #9a9a9a;
+  transition: all 0.2s;
+}
+
+#header ul li a:hover,
+#header ul .active {
+  color: #72ab00;
+  border-top: 5px solid #72ab00;
+}
+
+#section {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 15px;
+  padding: 15px;
+  height: 390px;
+  background-color: #f8f8f8;
+  text-align: left;
+  box-shadow: 0px 0px 2px gray;
+}
+
+#section #imgContainer {
+  width: 15%;
+  margin-left: 2%;
+  height: 100%;
+  float: left;
+  /* border: 5px solid black; */
+}
+
+#section #imgContainer img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  float: left;
+  box-shadow: 0px 0px 5px #a6a6a6;
+  transition: all 0.5s;
+}
+
+#section #imgContainer img:hover {
+  opacity: 0.4;
+}
+
+#section #sectionText {
+  display: block;
+  float: right;
+  /* border: 1px solid black; */
+  width: 75%;
+  margin-left: 15px;
+  padding: 15px;
+  background-color: #ececec;
+  box-shadow: 0px 0px 5px #8a8787;
+  display: block;
+  height: auto;
+}
+
+#section h1 {
+  text-align: center;
+  color: #72ab00;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#section p {
+  margin: 15px;
+  text-align: left;
+  /* text-align: justify; */
+}
+
+#section #sectionText .button {
+  color: white;
+  /* border: 1px solid black; */
+  background-color: #72ab00;
+  width: 100px;
+  display: block;
+  text-align: center;
+  box-shadow: 0px 1px 5px #ccc;
+  margin-left: 4%;
+  padding: 2px;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 5px;
+  float: left;
+  transition: background-color 0.3s;
+}
+
+#section #sectionText .button:hover {
+  background-color: #679b00;
+}
+
+#section #sectionText .button:active {
+  box-shadow: 0px 0px 2px black, 0px 0px 5px black inset;
+}
+
+#section #sectionText #botonCurriculum {
+  float: right;
+  /* margin-top:-4%; */
+  /* margin-right: 4%; */
+}
+
+#section #sectionText #listaContacto {
+  /* border: 1px solid black; */
+  width: 70%;
+  margin: 7%;
+}
+
+#section #sectionText #listaContacto li {
+  list-style: square;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*# sourceMappingURL=styles.css.map */

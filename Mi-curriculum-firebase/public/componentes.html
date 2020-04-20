@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Componentes de Bootstrap 4 con Daniel Rodriguez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <header class="col-md-12  mt-2">
+                <!-- <h1>Componentes de Bootstrap 4 con Daniel Rodriguez</h1> -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Componentes</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item disabled" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Disabled</a>
+                            </li>
+                            <li class="nav-item">
+                                <form class="form-inline my-2 mx-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Daniel Rodriguez
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item disabled" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mt-3">
+
+                <nav class="col-md-6 " aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#">Desarrollo web</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <a href="#">Componentes de Bootstrap</a>
+                        </li>
+                    </ol>
+                </nav>
+
+
+
+
+
+                <div class=" col-md-8 alert alert-warning alert-dismissible mt-5 mx-auto fade show">
+                    <strong>Increíble</strong>, te has registrado correctamente
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <h2>
+                    <span class="badge badge-success">Nuevo</span>
+                    Componentes de Bootrstrap
+                </h2>
+                <p class="badge badge-warning">
+                    Este es un artículo nuevo
+                </p>
+            </div>
+        </div>
+
+        <div class="row col-md-8">
+            <div class="card col-3 row p-0 mr-3">
+                <img class="card-img-top img-fluid" src="https://via.placeholder.com/300x200">
+                <div class="card-body">
+                    <h5 class="card-title">Tarjeta 1</h5>
+                    <p class="card-text">
+                        Hola, entra a este artículo y aprenderás Bootstrap
+                    </p>
+                    <a href="#" class="btn btn-success">Entrar</a>
+                </div>
+            </div>
+            <div class="card col p-0 mr-3">
+                <img class="card-img-top img-fluid" src="https://via.placeholder.com/300x200">
+                <div class="card-body">
+                    <h5 class="card-title">Tarjeta 1</h5>
+                    <p class="card-text">
+                        Hola, entra a este artículo y aprenderás Bootstrap
+                    </p>
+                    <a href="#" class="btn btn-success">Entrar</a>
+                </div>
+            </div>
+            <div class="card col p-0 mr-3">
+                <img class="card-img-top img-fluid" src="https://via.placeholder.com/300x200">
+                <div class="card-body">
+                    <h5 class="card-title">Tarjeta 1</h5>
+                    <p class="card-text">
+                        Hola, entra a este artículo y aprenderás Bootstrap
+                    </p>
+                    <a href="#" class="btn btn-success">Entrar</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

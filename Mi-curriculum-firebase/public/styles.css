@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu {
+  height: 50px;
+}
+
+#menu ul {
+  text-decoration: none;
+  list-style: none;
+  line-height: 50px;
+}
+
+.item {
+  height: 150px;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+}
+
+.lateral {
+  height: 300px;
+}
+.lateral div {
+  height: 150px;
+}
+
+#nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+#nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  align-items: end;
+  justify-content: space-around;
+}
+#nav ul li {
+  display: flex;
+}
+#nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+}
+#nav ul li a:hover {
+  color: #343a40;
+}
+
+#listaContacto {
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,167 @@
+
+
+
+
+
+@media (max-width:1900px){
+
+    #section #imgContainer{
+        width: 15%;
+    }
+
+    #section #sectionText{
+        width: 75%;
+    }
+    #section{
+        height: 380px;
+    }
+}
+@media (max-width:1700px){
+    #section #imgContainer{
+        width: 18%;
+    }
+
+    #section{
+        height: 410px;
+    }
+}
+
+@media (max-width:1500px){
+    #section{
+        height: 365px;
+    }
+   
+}
+@media (max-width:1250px){
+
+    #section{
+        height: 320px;
+    }
+    #section #imgContainer {
+        width: 19% !important;
+        margin-left: 2% !important;
+    }
+    #section #sectionText{
+        width: 70% !important;
+    }
+}
+@media (max-width:1150px){
+
+    #section{
+        height: 325px;
+    }
+    #section #imgContainer {
+        width: 20%;
+        margin-left: 4%;
+    }
+    
+}
+
+
+@media (max-width:955px){
+    #section #imgContainer {
+        width: 25%;
+        margin-left: 1%;
+    }
+    #section #sectionText {
+        width: 65%;
+    }
+}
+
+
+
+@media (max-width:921px){
+    #section #sectionText{
+ 
+        width: 59%;
+       
+    }
+    #section #imgContainer {
+        width: 26%;
+    }
+    #section{
+        height: 325px !important;
+    }
+}
+
+@media  (max-width:860px) {
+    #datos #nombre {
+        font-size: 40px;
+    }
+    #datos #profesion{
+        font-size: 25px;
+    }
+    #header ul li a{
+        font-size: 20px;
+    }
+    #nav ul{
+        height: 4px;
+    }
+    #section{
+        width: 95%;
+        
+    }
+    .sectionTextAptitudes{
+        height:310px !important;
+    }
+    #section #sectionText{
+        width: 65% !important;
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 255px;
+        margin: 0px auto !important;
+        float: none !important;
+    }
+    #section #imgContainer{
+        display: block;
+        width: 24% !important;
+    }
+    
+  
+}
+
+@media (max-width:640px){
+    #section #sectionText{
+        height: auto !important;
+        max-height: 300px;
+    }
+}
+
+@media (max-width:526px){
+
+    #section #sectionText{
+        height: 295px;
+        width: 90% !important;
+        max-height: none;
+        height: auto !important;
+        
+    }
+    #section #imgContainer{
+        
+        display: none;
+    }
+    #section{
+        height: auto !important;
+    }
+    
+}
+@media  (max-width:460px) {
+
+  #section #sectionText #listaContacto li{
+      font-size: 12px;
+  }
+
+}
+
+@media (max-width:394px){
+    #header ul li a{
+        font-size:15px
+    }
+
+   
+}
+@media (max-width: 318px){
+    #header ul li a{
+        font-size: 11px;
+    }
+}
