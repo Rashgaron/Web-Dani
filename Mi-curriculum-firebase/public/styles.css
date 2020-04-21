@@ -57,4 +57,15 @@ footer {
   margin-left: 15px;
 }
 
+@media (max-width: 576px) {
+  #imagen {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  #imagen {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

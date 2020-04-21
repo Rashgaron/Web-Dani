@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <title>Aprendiendo Bootstrap con Daniel Rodriguez</title>
     <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
     <section id="content-fluid" class="content">
         <div>
-            <header class="row col-12 m-0 p-4 bg-dark text-white justify-content-between">
+            <header class="row col-12 m-0 p-1 p-sm-4 bg-dark text-white justify-content-between">
                 <div class="row col">
                     <div class="col-12 ml-3">
                         <h2>Currículum Web <span class="text-success font-weight-bold">Daniel Rodriguez</span></h2>
@@ -41,16 +42,14 @@
             </header>
 
         </div>
-        <div class="row">
-            <section id="general" class="col border p-4 justify-content-center">
-
-
-                <div class=" col d-block mx-auto p-0">
-                    <div class="col row bg-dark p-3 justify-content-between m-0 ">
-                        <div class="col-md-3 row ">
-                            <img class="d-none d-md-block " src="hollywood.png" alt="imagen de prueba">
-                        </div>
-                        <div class="col col-md-9 bg-light p-3">
+      
+        <section id="general" class="col border p-4 justify-content-center">
+            <div class=" col d-block mx-auto p-0">
+                <div class="col row bg-dark p-3 justify-content-between m-0 ">
+                    <div id="imagen" class="col-sm-5 col-md-4 row p-0 mr-1">
+                        <img  class="col ml-0" src="hollywood.png" alt="imagen de prueba">
+                    </div>
+                    <div class="col col-sm-7 col-md-8 bg-light p-3">
                             <h1 class="text-success">Mis aptitudes</h1>
                             <br>
                             <p>Hola,
@@ -78,7 +77,7 @@
 
 
 
-        </div>
+    
 
     </section>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
